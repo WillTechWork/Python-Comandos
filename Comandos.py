@@ -117,5 +117,24 @@ Nome = "Willian"
 
 Nome2 = "Willian"
 
-# OBS: Em outras linguagens de programação: qualquer caracter
+# OBS: Em outras linguagens de programação: qualquer caracter, nomes, textos, podem ser declarados como (char =)
+# EXEMPLO ABAIXO:
 
+char = "j"
+char = "o"
+char = "w"
+char = "i"
+
+nome3 = '''ASPAS TRIPLAS SIMPLES: É um exemplo de string longa, contendo
+algumas informações.'''
+
+nome4 = """ASPAS TRIPLAS DUPLAS: É um exemplo de string longa, contendo
+algumas informações."""
+
+# OBS: Todo print: É uma função para mostrar, ou seja, o usuário ler na tela o que será
+# impresso a ele.
+
+print(nome)
+print(nome2)
+print(nome3)
+print(nome4)
