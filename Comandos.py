@@ -89,3 +89,33 @@ for i in range(10):
     if (i == 5)
     break
     print("Saindo do laço...")
+
+# Outro exemplo, mas com a condicional WHILE, em português = ENQUANTO.
+
+print("Entrando no laço")  # Entrando no laço.
+i = 0  # Criei uma variável, atributo i = 0, afirmando que i é = 0.
+# Enquanto (i) for menor que (10), dessa forma irá realizar a contagem.
+while (i < 10):
+    # Agora irei realizar o condicionamento de incremento adicionando + 1.
+    i += 1
+    # Agora nesse momento determino que (i) terá o resto da divisão dividido por 2, todo número que irá resultar em (número par), dessa forma, será ignorado números pares.
+    # Quando for realizar a impressão, mostrará apenas os números ímpares. O comando continue, ele irá ignorar determinada condição e assim irá continuar o fluxo.
+    if (i % 2 == 0):
+        # Imprimo o resultado para o usuário, assim consequentemente aparece: 1, 3, 5, 7 e 9.
+        print(i)
+        # Imprimindo ao usuário a saída do laço
+        print("Saindo do laço...")
+
+
+# MANIPULANDO STRINGS COM PYTHON, EXEMPLO:
+# Criando variáveis e atribuindo strings.
+
+Nome = "Willian"
+
+# OBS: Podemos declarar "STRINGS", tanto com aspas duplas ou aspas simples!
+# STRINGS: É menos que uma lista de caracteres, pode ser nome, textos e etc.
+
+Nome2 = "Willian"
+
+# OBS: Em outras linguagens de programação: qualquer caracter
+
