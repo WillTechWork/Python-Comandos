@@ -138,3 +138,107 @@ print(nome)
 print(nome2)
 print(nome3)
 print(nome4)
+
+# LAÇO DE REPETIÇÃO (For) = PARA.
+
+# Enquanto esse laço de repetição ocorrer entre o parâmetro colocado entre aspas "" essa palavra irá se completar.
+# Então a palavra irá ser concluída de acordo com o que colocarmos entre os parênteses.
+
+for i in "Python":
+   print(i)
+
+
+# Esse outro exemplo, funciona da mesma forma, só que aqui, criamos uma variável, atribuímos os valores e assim utilizamos o parâmetro de
+# acordo com os dados acrescentados. Utilizamos o Laço (for) para criar o mesmo. E o print para imprimir os dados atribuidos.
+
+num = [4, 5, 6, 7, 8, 9, 10]
+
+for j in num:
+    print(j)
+
+# Laço for Range = Uma série de valores atribuídos, ou podemos dizer que também seja um alcance até determinado limite!
+
+for i in range(10):
+    print(i + 1)
+
+# Nesse laço, criamos uma sequência, nesse caso o alcance será até o limite atribuído 10.
+# Como vemos foi adicionado + 1, de acordo os dados passados.
+# Assim podemos utilizar esse laço para percorrer uma lista e diferentes dados.
+
+print("==========")
+
+# Nesse caso, estamos criando um  parâmetro para iniciar de -10 até 0, assim de 1 em 1.
+for j in range(- 10, 0, 1):
+    print(j)
+
+    # Quando printarmos a contagem será dada de 1 em 1.
+    # Se colocarmos agora 2 no terceiro parâmetro, ele irá pular de 2 em 2.
+
+for j in range(- 10, 0, 2):
+    print(j)
+
+
+# Laço de Repetição (While) = ENQUANTO.
+# criando uma variável, contado, por exemplo podemos colocar qualquer letra, nesse exemplo vamos utilizar a letra (i).
+
+# while = Enquanto
+
+# Aqui atribuo que (i), é igual a 0, enquanto (i) for menor ou = 10, o contador irá adicionando + 1 a sua contagem.
+
+# Então, acontece que  o (i) chegando no numeral 10 ele para de adicionar + 1, assim se encerra no 10.
+
+i = 0
+
+while (i <= 10):
+    print(i)
+    i = i + 1
+
+
+# MANIPULAÇÃO DE DADOS
+
+# print, comando para mostrar conteúdo na tela do usuário, função para saída de dados.
+print("Olá mundo!")
+
+nome = "Willian"
+idade = 27
+peso = 110.0
+altura = 1, 87
+
+print(nome)
+print(idade)
+print(peso)
+print(altura)
+
+print("Meu nome é: ", nome, ",minha idade é: ", idade,",atualmente peso: ", peso, "e a altura: ", altura)
+
+# Função sep='/', ele faz a separação de forma automática diante os números.
+# print("20", "11", "1995", sep='/')
+
+# EXISTE TAMBÉM O SEPARADOR COM TRACINHO, DE VEZ DE COLOCAR A BARRA, SE COLOCA O TRAÇO!
+
+print("20", "11", "1995", sep='/')
+print("B", "n", "n", ".", sep="a")
+
+# ACRESCENTANDO ESPAÇO, ACRESCENTANDO END= " "
+
+print("Vamos estudar na", end=" ")
+print("SoulCode Academy.")
+
+print("Preço ", end="R$ ")
+print(50.0)
+
+# COMANDO ELIF
+numero = 13
+# O comando elif = então, você acrescenta condições, sugestivas, caso o número for de acordo com as condições estabelecidas a seguir,
+# o resultado sairá de acordo com as opções de elif, ou seja, então!
+
+if numero == 10:  # True, Se
+    print("Este número é igual a 10!")
+elif numero == 11:
+    print("Este número é igual a 11!")
+elif numero == 12:
+    print("Este número é igual a 12")
+elif numero == 13:
+    print("Este número é igual a 13")
+else:  # False, Senão
+    print("Este número não é igual a 10, a 11, a 12 ou 13!")
