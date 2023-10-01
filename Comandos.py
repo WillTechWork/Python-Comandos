@@ -145,7 +145,7 @@ print(nome4)
 # Então a palavra irá ser concluída de acordo com o que colocarmos entre os parênteses.
 
 for i in "Python":
-   print(i)
+    print(i)
 
 
 # Esse outro exemplo, funciona da mesma forma, só que aqui, criamos uma variável, atribuímos os valores e assim utilizamos o parâmetro de
@@ -209,7 +209,8 @@ print(idade)
 print(peso)
 print(altura)
 
-print("Meu nome é: ", nome, ",minha idade é: ", idade,",atualmente peso: ", peso, "e a altura: ", altura)
+print("Meu nome é: ", nome, ",minha idade é: ", idade,
+      ",atualmente peso: ", peso, "e a altura: ", altura)
 
 # Função sep='/', ele faz a separação de forma automática diante os números.
 # print("20", "11", "1995", sep='/')
@@ -242,3 +243,147 @@ elif numero == 13:
     print("Este número é igual a 13")
 else:  # False, Senão
     print("Este número não é igual a 10, a 11, a 12 ou 13!")
+
+# OPERADORES ARITMÉTICOS
+
+# + = SOMA, - = Subtração, / = Divisão, * = Multiplicação, // = Divisão exata sem casas decimais, % = Resto de divisão.
+
+# a = 4
+# b = 6
+
+# EXEMPLOS
+print(a + b)  # adição
+print(5 - 2)  # Subtração
+print(2 * 5)  # Multiplicação
+print(10 / 6)  # Divisão
+print(10 // 6)  # Divisão exata, resultado saí sem casa decimais
+print(10 % 3)  # Resto da divisão
+
+nome = input("Digite o seu nome: ")
+idade = int(input("Digite a sua idade: "))
+altura = float(input("Digite a sua altura: "))
+CPF = int(input("Digite a numeração do seu CPF sem pontos: "))
+
+print("Meu nome é:", nome, ", possuo a seguinte idade:", idade,
+      ", com altura aproximadamente de:", altura, "e com a identificação do seguinte CPF:", CPF)
+
+
+# OPERADORES DE RELAÇÃO E CONDIÇÃO.
+
+# Operadores de relação e igualdade:
+# ==, significa igual.
+# !=, significa diferente.
+
+
+# Operadores relaconais:
+'''
+> = Maior que.
+< = Menor que.
+>= = Maior ou igual que.
+<= = Menor ou igual que.
+
+'''
+# ATRIBUIÇÃO E VERIFICAÇÃO DE CONDIÇÃO: TRUE OU FALSE.
+
+numero = 100 == 100
+print(numero)
+
+# Verificação de dado, saber o tipo de dado, acrescente o type, exemplo abaixo:
+# Dessa forma iremos saber qual é o tipo de dados que estamos trabalhando!
+
+print(type(numero))
+
+# PERCORRENDO STRINGS
+
+nome = "Python"
+
+# Criei a variável, declarei ela com o nome python, ou seja, a String.
+# Percorrendo com for
+
+for x in nome:
+    print(x)
+
+# percorrer com while
+
+x = 0
+
+while x < len(nome)
+
+# PROPRIEDADE DAS STRINGS
+
+l = 'lista de letras'
+data = '15/09/2021'
+
+# Tamanho da string
+# Exemplo abaixo:
+
+tamanho = len(l)  # Função (len) = Essa função retorna o tamanho da string.
+print(tamanho)
+
+
+# Split da string
+
+# Função (Split) = Essa função realiza a separação da lista de acordo com o espaço colocado entre aspas,
+lista = l.split(" ")
+
+# Também se coloca /, barras para acrescentar o espaço como vemos nessa opção.
+lista2 = data.split("/")
+print(lista)
+print(lista2)  # Aqui executamos a apresentação do conteúdo.
+
+# Substituição:
+
+
+# Aqui nessa sintaxe a função (replace), vai eliminar os espaços, (Como vimos, pegamos o fragmento.)
+print(l.replace(" de ", ""))
+# " de ", acrescentamos vírgula, espaço e trocamos esse " de " por um espaço sem nada = "", aspas unidas, assim eliminando o fragmento da
+# string, fazendo que o espaço e o (de), sejam eliminados consequentemente da string.
+
+
+# VARIÁVEIS: DECLARANDO ATRIBUIÇÕES
+
+# Símbolo de jogo da velha: É utilizado para colocar comentário!
+
+'''Aspas triplas: São utilizadas para colocar comentários na linguagem python'''
+
+print("Teste")
+
+# Variáveis são espaços na memória onde serão armazenados os dados e assim podemos trabalhar com elas em nossos códigos.
+
+
+# Declarando variáveis:
+
+# Tipos de variáveis e atribuições:
+
+nome = "José"  # Variável do tipo nome, ou seja, texto é uma string.
+idade = 27  # Variável do tipo número sem quebra, se caracteriza inteiro.
+peso = 112.0  # Variável do tipo float.
+altura = 1.87  # Variável do tipo float
+situacao = True  # Variável do tipo Booleana, Verdadeiro ou Falso.
+
+# EXERCÍCIO
+
+'''Nome dos animais, quantidade dos animais, peso e situação de vacinação.'''
+
+
+str  # string
+int  # inteiro
+float  # Texto, nome completo e etc.
+bool  # Tipo booleano, V ou F.
+
+animal1 = 'Vaca'  # Os quatros animais
+animal2 = 'Macaco'
+animal3 = 'Boi'
+animal4 = 'Ovelha'
+
+quantidade_de_animais = 4  # Quantidade de animais.
+
+peso_animal1 = 117.0  # Peso médio.
+peso_animal2 = 72.0
+peso_animal3 = 137.0
+peso_animal4 = 93.5
+
+situacao_vacinacao_animal1 = True  # Situação: "LÓGICA DA VACINAÇÃO".
+situacao_vacinacao_animal2 = False
+situacao_vacinacao_animal3 = True
+situacao_vacinacao_animal4 = True
